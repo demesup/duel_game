@@ -137,18 +137,18 @@ Generate coverage report:
 node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --runInBand
 ```
 
-Latest local run:
---------------|---------|----------|---------|---------|-------------------
-File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------|---------|----------|---------|---------|-------------------
-All files     |   98.65 |     89.7 |     100 |   98.65 |                   
- ability.ts   |     100 |      100 |     100 |     100 |                   
- character.ts |     100 |      100 |     100 |     100 |                   
- duel.ts      |     100 |    55.55 |     100 |     100 | 16,25-32          
- game.ts      |     100 |      100 |     100 |     100 |                   
- loop.ts      |   93.75 |    83.33 |     100 |   93.75 | 7                 
- phase.ts     |     100 |      100 |     100 |     100 |                   
- turn.ts      |     100 |      100 |     100 |     100 |                   
- utils.ts     |      90 |       50 |     100 |      90 | 11                  
---------------|---------|----------|---------|---------|-------------------
-Primary lower-coverage area: utility helpers in `src/utils.ts` (console output/random helper paths).
+### Test Coverage Report
+
+
+| File | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **All files** | **100** | **95.58** | **100** | **100** | |
+| ability.ts | 100 | 100 | 100 | 100 | |
+| character.ts | 100 | 100 | 100 | 100 | |
+| duel.ts | 100 | 88.88 | 100 | 100 | 16 |
+| game.ts | 100 | 100 | 100 | 100 | |
+| loop.ts | 100 | 83.33 | 100 | 100 | 9-20 |
+| phase.ts | 100 | 100 | 100 | 100 | |
+| turn.ts | 100 | 100 | 100 | 100 | |
+| utils.ts | 100 | 100 | 100 | 100 | |
+
