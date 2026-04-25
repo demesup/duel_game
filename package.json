@@ -1,0 +1,26 @@
+{
+  "name": "duel",
+  "version": "1.0.0",
+  "description": "Duel simulation",
+  "license": "ISC",
+  "author": "demesup",
+  "type": "commonjs",
+  "main": "dist/cli.js",
+  "scripts": {
+      "build": "tsc",
+      "duel": "node dist/cli.js",
+      "duel:round": "node dist/cli.js --per-round",
+      "duel:sim": "node dist/cli.js --simulate",
+      "duel:sim:round": "node dist/cli.js --simulate --per-round",
+      "duel:sim:40": "node dist/cli.js --simulate --ability-chance 0.4",
+      "duel:sim:r:40": "node dist/cli.js --simulate --per-round --ability-chance 0.4",
+      "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^6.0.3"
+  }
+}
